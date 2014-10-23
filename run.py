@@ -22,6 +22,3 @@ if __name__ == '__main__':
     #f.set_city(city)
     print(f.req_geocoding("Plac Bankowy", city_id=1, country="Poland"))
     import ipdb; ipdb.set_trace()
-    print(f.req_geocoding("Plac Bankowy", city_id=1, country="Germany"))
-    #print(f.req_token())
-    #print(list(f.req_nearest_vendors(options.lat, options.long)))
